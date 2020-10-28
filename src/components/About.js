@@ -4,6 +4,7 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const About = () => {
+    // get people data
     const people = [
         {
             name: "Michael Scott",
@@ -43,7 +44,7 @@ const About = () => {
                 <Row>
                     {people.map(p => (
                         <Col sm={12} md={6} lg={4}>
-                            <Card style={{ width: '18rem' }}>
+                            <Card className="mb-2">
                                 <Card.Img variant="top" src={p.img} />
                                 <Card.Body>
                                     <Card.Title>{p.name}</Card.Title>
