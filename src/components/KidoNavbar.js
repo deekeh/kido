@@ -1,20 +1,34 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import { Navbar, Nav } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const KidoNavbar = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="xl">
+        <Navbar bg="primary" variant="dark" expand="xl">
             <Navbar.Brand href="#">
-                Kido
+                Kïdo
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                    <Nav.Link href="#">Home</Nav.Link>
-                    <Nav.Link href="#">Home</Nav.Link>
-                    <Nav.Link href="#">Home</Nav.Link>
+                    <Link to="/">
+                        <li className="nav-item">
+                            <span className="nav-link">Home</span>
+                        </li>
+                    </Link>
+                    <Link to="/about">
+                        <li className="nav-item">
+                            <span className="nav-link">About</span>
+                        </li>
+                    </Link>
+                    <Link to="/contact">
+                        <li className="nav-item">
+                            <span className="nav-link">Contact</span>
+                        </li>
+                    </Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
