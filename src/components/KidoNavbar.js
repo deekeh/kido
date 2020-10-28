@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const KidoNavbar = () => {
     return (
-        <Navbar bg="primary" variant="dark" expand="xl">
+        <Navbar sticky="top" bg="primary" variant="dark" expand="xl">
             <Navbar.Brand href="#">
                 Kïdo
             </Navbar.Brand>
