@@ -24,7 +24,7 @@ const About = () => {
     ]
 
     return(
-        <Container mt={6}>
+        <Container className="mt-5">
             <br/>
             <section className="mb-4">
                 <h2>

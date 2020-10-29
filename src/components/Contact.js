@@ -5,12 +5,12 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 const Contact = () => {
     return(
-        <Container mt={6}>
+        <Container>
             <br/>
-            <h2>
+            <h2 className="mt-5">
                 Let's Chat!
             </h2><hr/>
-            <Form>
+            <Form className="vh-100">
                 <Row>
                     <Col sm={12} lg={6}>
                         <Form.Group>
