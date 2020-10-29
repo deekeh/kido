@@ -16,7 +16,7 @@ function App() {
       <Router>
         <KidoNavbar></KidoNavbar>
         <Switch>
-          <Route path="/" exact component={Home}></Route>
+          <Route path="/home" exact component={Home}></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/contact" component={Contact}></Route>
         </Switch>
