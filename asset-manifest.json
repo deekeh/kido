@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kido/static/css/main.b0f4af0d.chunk.css",
+    "main.js": "/kido/static/js/main.d1ebc449.chunk.js",
+    "main.js.map": "/kido/static/js/main.d1ebc449.chunk.js.map",
+    "runtime-main.js": "/kido/static/js/runtime-main.e2897c67.js",
+    "runtime-main.js.map": "/kido/static/js/runtime-main.e2897c67.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/kido/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.239acd41.chunk.js": "/kido/static/js/2.239acd41.chunk.js",
+    "static/js/2.239acd41.chunk.js.map": "/kido/static/js/2.239acd41.chunk.js.map",
+    "static/js/3.9ff53861.chunk.js": "/kido/static/js/3.9ff53861.chunk.js",
+    "static/js/3.9ff53861.chunk.js.map": "/kido/static/js/3.9ff53861.chunk.js.map",
+    "index.html": "/kido/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/kido/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.b0f4af0d.chunk.css.map": "/kido/static/css/main.b0f4af0d.chunk.css.map",
+    "static/js/2.239acd41.chunk.js.LICENSE.txt": "/kido/static/js/2.239acd41.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/kido/static/media/kids-1.3e42d6f7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2897c67.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.239acd41.chunk.js",
+    "static/css/main.b0f4af0d.chunk.css",
+    "static/js/main.d1ebc449.chunk.js"
+  ]
+}
